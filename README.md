@@ -12,11 +12,11 @@
 
 - - -
 
-## License & Copyright
-
-© Colsti J Donaldson, CS Student 
-
 ## Acknowledgments 
 
 - Codecademy
 - M1M0 
+
+## License & Copyright
+
+© Colstin J Donaldson, CS Student 
