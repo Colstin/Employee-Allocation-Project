@@ -13,9 +13,9 @@ for employee in staff[:early_staff]:
     position = staff.index(employee)
     early_allocation[employee] = early_calls[position::early_staff]
 
-early_names_list = list(early_allocation)   #this is to print the keys in our dict
+early_names_list = list(early_allocation)   #this is to print the keys of our dict
 
-call_values = early_allocation.values()     #this is to print values in our dict
+call_values = early_allocation.values()     #this is to print values of our dict
 call_values_list = list(call_values)
 
 print(f"""Allocation will be, 
@@ -31,10 +31,8 @@ late_allocation = {}
 for employee in staff:
     position = late_staff.index(employee)
     late_allocation[employee] = late_calls[position::staff_count]
-#print(late_allocation)
 
 late_names_list = list(late_allocation)
-
 
 late_values = late_allocation.values()
 late_values_list = list(late_values)
