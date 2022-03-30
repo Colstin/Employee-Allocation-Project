@@ -45,4 +45,3 @@ print(f"""Allocation will be,
     Second: {late_names_list[1]} assigned calls: {late_values_list[1]}
     Third: {late_names_list[2]} assigned calls: {late_values_list[2]}""") 
 
-#test
